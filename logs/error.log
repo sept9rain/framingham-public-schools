@@ -1,0 +1,1270 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Oct 21 04:56:16 2020] ***
+compiled with version: 8.3.1 20191121 (Red Hat 8.3.1-5) on 20 October 2020 23:56:21
+os: Linux-4.18.0-193.19.1.el8_2.x86_64 #1 SMP Mon Sep 14 14:37:00 UTC 2020
+nodename: Ziyu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /www/djangoProject/501project_venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/djangoProject
+your processes number limit is 14993
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 7
+uwsgi socket 0 bound to TCP address 127.0.0.1:40099 (port auto-assigned) fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.8 (default, Jul  4 2020, 10:48:43)  [GCC 8.3.1 20190507 (Red Hat 8.3.1-4)]
+Python main interpreter initialized at 0xc87ad0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xc87ad0 pid: 124217 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 124217)
+spawned uWSGI worker 1 (pid: 124218, cores: 2)
+spawned uWSGI http 1 (pid: 124219)
+Invalid HTTP_HOST header: '501.sept9rain.com'. You may need to add '501.sept9rain.com' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 124218|app: 0|req: 1/1] 127.0.0.1 () {60 vars in 1204 bytes} [Wed Oct 21 04:56:29 2020] GET / => generated 59674 bytes in 93 msecs (HTTP/1.0 400) 3 headers in 116 bytes (1 switches on core 0)
+Wed Oct 21 04:57:36 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Oct 21 04:57:36 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Oct 21 04:57:37 2020] ***
+compiled with version: 8.3.1 20191121 (Red Hat 8.3.1-5) on 20 October 2020 23:56:21
+os: Linux-4.18.0-193.19.1.el8_2.x86_64 #1 SMP Mon Sep 14 14:37:00 UTC 2020
+nodename: Ziyu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /www/djangoProject/501project_venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/djangoProject
+your processes number limit is 14993
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 7
+uwsgi socket 0 bound to TCP address 127.0.0.1:41609 (port auto-assigned) fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.8 (default, Jul  4 2020, 10:48:43)  [GCC 8.3.1 20190507 (Red Hat 8.3.1-4)]
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Oct 21 04:57:37 2020] ***
+compiled with version: 8.3.1 20191121 (Red Hat 8.3.1-5) on 20 October 2020 23:56:21
+os: Linux-4.18.0-193.19.1.el8_2.x86_64 #1 SMP Mon Sep 14 14:37:00 UTC 2020
+nodename: Ziyu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /www/djangoProject/501project_venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/djangoProject
+your processes number limit is 14993
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8000).
+bind(): Address already in use [core/socket.c line 769]
+Python main interpreter initialized at 0x26f6b00
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x26f6b00 pid: 124425 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 124425)
+spawned uWSGI worker 1 (pid: 124428, cores: 2)
+spawned uWSGI http 1 (pid: 124429)
+[pid: 124428|app: 0|req: 1/1] 127.0.0.1 () {58 vars in 1162 bytes} [Wed Oct 21 04:57:45 2020] GET / => generated 2054 bytes in 20 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 124428|app: 0|req: 2/2] 127.0.0.1 () {60 vars in 1193 bytes} [Wed Oct 21 04:59:24 2020] GET / => generated 2054 bytes in 1 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 3/3] 127.0.0.1 () {60 vars in 1193 bytes} [Wed Oct 21 05:00:06 2020] GET / => generated 2054 bytes in 1 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 124428|app: 0|req: 4/4] 127.0.0.1 () {70 vars in 1441 bytes} [Wed Oct 21 05:00:12 2020] POST /upload/ => generated 16 bytes in 26 msecs (HTTP/1.0 200) 5 headers in 165 bytes (10 switches on core 1)
+[pid: 124428|app: 0|req: 5/5] 127.0.0.1 () {60 vars in 1193 bytes} [Wed Oct 21 05:04:51 2020] GET / => generated 2054 bytes in 7 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 124428|app: 0|req: 6/6] 127.0.0.1 () {62 vars in 1229 bytes} [Wed Oct 21 05:08:19 2020] GET / => generated 2054 bytes in 2 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 7/7] 127.0.0.1 () {70 vars in 1429 bytes} [Wed Oct 21 05:08:22 2020] POST /upload/ => generated 20 bytes in 2 msecs (HTTP/1.0 200) 5 headers in 165 bytes (1 switches on core 0)
+[pid: 124428|app: 0|req: 8/8] 127.0.0.1 () {62 vars in 1229 bytes} [Wed Oct 21 05:08:59 2020] GET / => generated 2054 bytes in 3 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 9/9] 127.0.0.1 () {56 vars in 1057 bytes} [Wed Oct 21 05:09:12 2020] GET / => generated 2054 bytes in 1 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 124428|app: 0|req: 10/10] 127.0.0.1 () {58 vars in 1065 bytes} [Wed Oct 21 05:09:13 2020] GET /favicon.ico => generated 2189 bytes in 13 msecs (HTTP/1.0 404) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 11/11] 127.0.0.1 () {70 vars in 1394 bytes} [Wed Oct 21 05:09:33 2020] POST /upload/ => generated 16 bytes in 7 msecs (HTTP/1.0 200) 5 headers in 165 bytes (1 switches on core 0)
+[pid: 124428|app: 0|req: 12/12] 127.0.0.1 () {68 vars in 1305 bytes} [Wed Oct 21 05:10:18 2020] GET / => generated 2054 bytes in 2 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 13/13] 127.0.0.1 () {52 vars in 751 bytes} [Wed Oct 21 05:22:05 2020] GET / => generated 2054 bytes in 6 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 124428|app: 0|req: 14/14] 127.0.0.1 () {52 vars in 759 bytes} [Wed Oct 21 05:22:05 2020] GET /favicon.ico => generated 2190 bytes in 6 msecs (HTTP/1.0 404) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 15/15] 127.0.0.1 () {66 vars in 1281 bytes} [Wed Oct 21 05:22:18 2020] GET / => generated 2054 bytes in 1 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 124428|app: 0|req: 16/16] 127.0.0.1 () {50 vars in 747 bytes} [Wed Oct 21 07:35:09 2020] GET / => generated 2054 bytes in 6 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 17/17] 127.0.0.1 () {50 vars in 744 bytes} [Wed Oct 21 07:35:09 2020] GET / => generated 2054 bytes in 1 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 124428|app: 0|req: 18/18] 172.104.92.166 () {28 vars in 339 bytes} [Wed Oct 21 08:00:48 2020] GET / => generated 56649 bytes in 76 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 19/19] 127.0.0.1 () {54 vars in 965 bytes} [Wed Oct 21 12:56:00 2020] GET / => generated 2054 bytes in 10 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 124428|app: 0|req: 20/20] 127.0.0.1 () {56 vars in 1037 bytes} [Wed Oct 21 13:15:30 2020] GET / => generated 2054 bytes in 7 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 21/21] 127.0.0.1 () {78 vars in 1555 bytes} [Wed Oct 21 13:50:34 2020] POST /upload/ => generated 16 bytes in 8 msecs (HTTP/1.0 200) 5 headers in 165 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 124428|app: 0|req: 22/22] 180.149.125.171 () {30 vars in 426 bytes} [Wed Oct 21 19:41:34 2020] GET / => generated 56938 bytes in 46 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 124428|app: 0|req: 23/23] 121.178.11.82 () {32 vars in 501 bytes} [Wed Oct 21 20:10:15 2020] GET / => generated 57041 bytes in 36 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 124428|app: 0|req: 24/24] 121.178.11.82 () {32 vars in 501 bytes} [Wed Oct 21 20:10:15 2020] GET / => generated 57041 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 124428|app: 0|req: 25/25] 121.178.11.82 () {32 vars in 501 bytes} [Wed Oct 21 20:10:16 2020] GET / => generated 57041 bytes in 36 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.msftncsi.com'. You may need to add 'www.msftncsi.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.msftncsi.com/ncsi.txt
+[pid: 124428|app: 0|req: 26/26] 121.178.11.82 () {34 vars in 603 bytes} [Wed Oct 21 20:10:17 2020] GET http://www.msftncsi.com/ncsi.txt => generated 57557 bytes in 32 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'www.msftncsi.com'. You may need to add 'www.msftncsi.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.msftncsi.com/ncsi.txt
+[pid: 124428|app: 0|req: 27/27] 121.178.11.82 () {34 vars in 603 bytes} [Wed Oct 21 20:10:18 2020] GET http://www.msftncsi.com/ncsi.txt => generated 57557 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.msftncsi.com'. You may need to add 'www.msftncsi.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.msftncsi.com/ncsi.txt
+[pid: 124428|app: 0|req: 28/28] 121.178.11.82 () {34 vars in 602 bytes} [Wed Oct 21 20:10:19 2020] GET http://www.msftncsi.com/ncsi.txt => generated 57556 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /HNAP1/
+[pid: 124428|app: 0|req: 29/29] 121.178.11.82 () {34 vars in 555 bytes} [Wed Oct 21 20:10:20 2020] GET /HNAP1/ => generated 57261 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /HNAP1/
+[pid: 124428|app: 0|req: 30/30] 121.178.11.82 () {34 vars in 555 bytes} [Wed Oct 21 20:10:21 2020] GET /HNAP1/ => generated 57261 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /HNAP1/
+[pid: 124428|app: 0|req: 31/31] 121.178.11.82 () {34 vars in 555 bytes} [Wed Oct 21 20:10:22 2020] GET /HNAP1/ => generated 57261 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /hudson/script
+[pid: 124428|app: 0|req: 32/32] 121.178.11.82 () {34 vars in 569 bytes} [Wed Oct 21 20:10:23 2020] GET /hudson/script => generated 57345 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /hudson/script
+[pid: 124428|app: 0|req: 33/33] 121.178.11.82 () {34 vars in 569 bytes} [Wed Oct 21 20:10:24 2020] GET /hudson/script => generated 57345 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /hudson/script
+[pid: 124428|app: 0|req: 34/34] 121.178.11.82 () {34 vars in 568 bytes} [Wed Oct 21 20:10:25 2020] GET /hudson/script => generated 57344 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /script
+[pid: 124428|app: 0|req: 35/35] 121.178.11.82 () {34 vars in 555 bytes} [Wed Oct 21 20:10:26 2020] GET /script => generated 57261 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /script
+[pid: 124428|app: 0|req: 36/36] 121.178.11.82 () {34 vars in 555 bytes} [Wed Oct 21 20:10:27 2020] GET /script => generated 57261 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /script
+[pid: 124428|app: 0|req: 37/37] 121.178.11.82 () {34 vars in 555 bytes} [Wed Oct 21 20:10:27 2020] GET /script => generated 57261 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /sqlite/main.php
+[pid: 124428|app: 0|req: 38/38] 121.178.11.82 () {34 vars in 572 bytes} [Wed Oct 21 20:10:28 2020] GET /sqlite/main.php => generated 57368 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /sqlite/main.php
+[pid: 124428|app: 0|req: 39/39] 121.178.11.82 () {34 vars in 573 bytes} [Wed Oct 21 20:10:29 2020] GET /sqlite/main.php => generated 57369 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /sqlite/main.php
+[pid: 124428|app: 0|req: 40/40] 121.178.11.82 () {34 vars in 573 bytes} [Wed Oct 21 20:10:30 2020] GET /sqlite/main.php => generated 57369 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /sqlitemanager/main.php
+[pid: 124428|app: 0|req: 41/41] 121.178.11.82 () {34 vars in 587 bytes} [Wed Oct 21 20:10:31 2020] GET /sqlitemanager/main.php => generated 57453 bytes in 29 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /sqlitemanager/main.php
+[pid: 124428|app: 0|req: 42/42] 121.178.11.82 () {34 vars in 587 bytes} [Wed Oct 21 20:10:32 2020] GET /sqlitemanager/main.php => generated 57453 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /sqlitemanager/main.php
+[pid: 124428|app: 0|req: 43/43] 121.178.11.82 () {34 vars in 587 bytes} [Wed Oct 21 20:10:33 2020] GET /sqlitemanager/main.php => generated 57453 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /SQLiteManager/main.php
+[pid: 124428|app: 0|req: 44/44] 121.178.11.82 () {34 vars in 587 bytes} [Wed Oct 21 20:10:34 2020] GET /SQLiteManager/main.php => generated 57453 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /SQLiteManager/main.php
+[pid: 124428|app: 0|req: 45/45] 121.178.11.82 () {34 vars in 587 bytes} [Wed Oct 21 20:10:35 2020] GET /SQLiteManager/main.php => generated 57453 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /SQLiteManager/main.php
+[pid: 124428|app: 0|req: 46/46] 121.178.11.82 () {34 vars in 587 bytes} [Wed Oct 21 20:10:36 2020] GET /SQLiteManager/main.php => generated 57453 bytes in 33 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /SQLite/main.php
+[pid: 124428|app: 0|req: 47/47] 121.178.11.82 () {34 vars in 573 bytes} [Wed Oct 21 20:10:37 2020] GET /SQLite/main.php => generated 57369 bytes in 40 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /SQLite/main.php
+[pid: 124428|app: 0|req: 48/48] 121.178.11.82 () {34 vars in 573 bytes} [Wed Oct 21 20:10:38 2020] GET /SQLite/main.php => generated 57369 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /SQLite/main.php
+[pid: 124428|app: 0|req: 49/49] 121.178.11.82 () {34 vars in 573 bytes} [Wed Oct 21 20:10:39 2020] GET /SQLite/main.php => generated 57369 bytes in 39 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /SQlite/main.php
+[pid: 124428|app: 0|req: 50/50] 121.178.11.82 () {34 vars in 573 bytes} [Wed Oct 21 20:10:40 2020] GET /SQlite/main.php => generated 57369 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /SQlite/main.php
+[pid: 124428|app: 0|req: 51/51] 121.178.11.82 () {34 vars in 573 bytes} [Wed Oct 21 20:10:41 2020] GET /SQlite/main.php => generated 57369 bytes in 28 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /SQlite/main.php
+[pid: 124428|app: 0|req: 52/52] 121.178.11.82 () {34 vars in 573 bytes} [Wed Oct 21 20:10:42 2020] GET /SQlite/main.php => generated 57369 bytes in 67 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /main.php
+[pid: 124428|app: 0|req: 53/53] 121.178.11.82 () {34 vars in 558 bytes} [Wed Oct 21 20:10:42 2020] GET /main.php => generated 57284 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /main.php
+[pid: 124428|app: 0|req: 54/54] 121.178.11.82 () {34 vars in 559 bytes} [Wed Oct 21 20:10:43 2020] GET /main.php => generated 57285 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /main.php
+[pid: 124428|app: 0|req: 55/55] 121.178.11.82 () {34 vars in 559 bytes} [Wed Oct 21 20:10:44 2020] GET /main.php => generated 57285 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php
+[pid: 124428|app: 0|req: 56/56] 121.178.11.82 () {34 vars in 663 bytes} [Wed Oct 21 20:10:45 2020] GET /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php => generated 57909 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php
+[pid: 124428|app: 0|req: 57/57] 121.178.11.82 () {34 vars in 663 bytes} [Wed Oct 21 20:10:46 2020] GET /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php => generated 57909 bytes in 28 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php
+[pid: 124428|app: 0|req: 58/58] 121.178.11.82 () {34 vars in 662 bytes} [Wed Oct 21 20:10:47 2020] GET /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php => generated 57908 bytes in 37 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /SQLiteManager-1.2.4/main.php
+[pid: 124428|app: 0|req: 59/59] 121.178.11.82 () {34 vars in 599 bytes} [Wed Oct 21 20:10:48 2020] GET /SQLiteManager-1.2.4/main.php => generated 57525 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /SQLiteManager-1.2.4/main.php
+[pid: 124428|app: 0|req: 60/60] 121.178.11.82 () {34 vars in 599 bytes} [Wed Oct 21 20:10:49 2020] GET /SQLiteManager-1.2.4/main.php => generated 57525 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /SQLiteManager-1.2.4/main.php
+[pid: 124428|app: 0|req: 61/61] 121.178.11.82 () {34 vars in 599 bytes} [Wed Oct 21 20:10:50 2020] GET /SQLiteManager-1.2.4/main.php => generated 57525 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /agSearch/SQlite/main.php
+[pid: 124428|app: 0|req: 62/62] 121.178.11.82 () {34 vars in 591 bytes} [Wed Oct 21 20:10:51 2020] GET /agSearch/SQlite/main.php => generated 57477 bytes in 32 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /agSearch/SQlite/main.php
+[pid: 124428|app: 0|req: 63/63] 121.178.11.82 () {34 vars in 591 bytes} [Wed Oct 21 20:10:52 2020] GET /agSearch/SQlite/main.php => generated 57477 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /agSearch/SQlite/main.php
+[pid: 124428|app: 0|req: 64/64] 121.178.11.82 () {34 vars in 591 bytes} [Wed Oct 21 20:10:53 2020] GET /agSearch/SQlite/main.php => generated 57477 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin/
+[pid: 124428|app: 0|req: 65/65] 121.178.11.82 () {34 vars in 565 bytes} [Wed Oct 21 20:10:54 2020] GET /phpmyadmin/ => generated 57321 bytes in 21 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin/
+[pid: 124428|app: 0|req: 66/66] 121.178.11.82 () {34 vars in 564 bytes} [Wed Oct 21 20:10:55 2020] GET /phpmyadmin/ => generated 57320 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin/
+[pid: 124428|app: 0|req: 67/67] 121.178.11.82 () {34 vars in 565 bytes} [Wed Oct 21 20:10:56 2020] GET /phpmyadmin/ => generated 57321 bytes in 39 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin/
+[pid: 124428|app: 0|req: 68/68] 121.178.11.82 () {34 vars in 565 bytes} [Wed Oct 21 20:10:57 2020] GET /phpMyAdmin/ => generated 57321 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin/
+[pid: 124428|app: 0|req: 69/69] 121.178.11.82 () {34 vars in 565 bytes} [Wed Oct 21 20:10:57 2020] GET /phpMyAdmin/ => generated 57321 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin/
+[pid: 124428|app: 0|req: 70/70] 121.178.11.82 () {34 vars in 565 bytes} [Wed Oct 21 20:10:58 2020] GET /phpMyAdmin/ => generated 57321 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /PMA/
+[pid: 124428|app: 0|req: 71/71] 121.178.11.82 () {34 vars in 551 bytes} [Wed Oct 21 20:10:59 2020] GET /PMA/ => generated 57237 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /PMA/
+[pid: 124428|app: 0|req: 72/72] 121.178.11.82 () {34 vars in 551 bytes} [Wed Oct 21 20:11:00 2020] GET /PMA/ => generated 57237 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /PMA/
+[pid: 124428|app: 0|req: 73/73] 121.178.11.82 () {34 vars in 551 bytes} [Wed Oct 21 20:11:01 2020] GET /PMA/ => generated 57237 bytes in 32 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /pma/
+[pid: 124428|app: 0|req: 74/74] 121.178.11.82 () {34 vars in 551 bytes} [Wed Oct 21 20:11:02 2020] GET /pma/ => generated 57237 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /pma/
+[pid: 124428|app: 0|req: 75/75] 121.178.11.82 () {34 vars in 551 bytes} [Wed Oct 21 20:11:03 2020] GET /pma/ => generated 57237 bytes in 35 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /pma/
+[pid: 124428|app: 0|req: 76/76] 121.178.11.82 () {34 vars in 551 bytes} [Wed Oct 21 20:11:04 2020] GET /pma/ => generated 57237 bytes in 21 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /admin/
+[pid: 124428|app: 0|req: 77/77] 121.178.11.82 () {34 vars in 555 bytes} [Wed Oct 21 20:11:05 2020] GET /admin/ => generated 57261 bytes in 35 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /admin/
+[pid: 124428|app: 0|req: 78/78] 121.178.11.82 () {34 vars in 555 bytes} [Wed Oct 21 20:11:06 2020] GET /admin/ => generated 57261 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /admin/
+[pid: 124428|app: 0|req: 79/79] 121.178.11.82 () {34 vars in 555 bytes} [Wed Oct 21 20:11:07 2020] GET /admin/ => generated 57261 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /dbadmin/
+[pid: 124428|app: 0|req: 80/80] 121.178.11.82 () {34 vars in 559 bytes} [Wed Oct 21 20:11:08 2020] GET /dbadmin/ => generated 57285 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /dbadmin/
+[pid: 124428|app: 0|req: 81/81] 121.178.11.82 () {34 vars in 558 bytes} [Wed Oct 21 20:11:08 2020] GET /dbadmin/ => generated 57284 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /dbadmin/
+[pid: 124428|app: 0|req: 82/82] 121.178.11.82 () {34 vars in 559 bytes} [Wed Oct 21 20:11:09 2020] GET /dbadmin/ => generated 57285 bytes in 21 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /mysql/
+[pid: 124428|app: 0|req: 83/83] 121.178.11.82 () {34 vars in 555 bytes} [Wed Oct 21 20:11:10 2020] GET /mysql/ => generated 57261 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /mysql/
+[pid: 124428|app: 0|req: 84/84] 121.178.11.82 () {34 vars in 555 bytes} [Wed Oct 21 20:11:11 2020] GET /mysql/ => generated 57261 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /mysql/
+[pid: 124428|app: 0|req: 85/85] 121.178.11.82 () {34 vars in 554 bytes} [Wed Oct 21 20:11:12 2020] GET /mysql/ => generated 57260 bytes in 45 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /myadmin/
+[pid: 124428|app: 0|req: 86/86] 121.178.11.82 () {34 vars in 559 bytes} [Wed Oct 21 20:11:13 2020] GET /myadmin/ => generated 57285 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /myadmin/
+[pid: 124428|app: 0|req: 87/87] 121.178.11.82 () {34 vars in 559 bytes} [Wed Oct 21 20:11:14 2020] GET /myadmin/ => generated 57285 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /myadmin/
+[pid: 124428|app: 0|req: 88/88] 121.178.11.82 () {34 vars in 559 bytes} [Wed Oct 21 20:11:15 2020] GET /myadmin/ => generated 57285 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /openserver/phpmyadmin/
+[pid: 124428|app: 0|req: 89/89] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:16 2020] GET /openserver/phpmyadmin/ => generated 57451 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /openserver/phpmyadmin/
+[pid: 124428|app: 0|req: 90/90] 121.178.11.82 () {34 vars in 587 bytes} [Wed Oct 21 20:11:17 2020] GET /openserver/phpmyadmin/ => generated 57453 bytes in 30 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /openserver/phpmyadmin/
+[pid: 124428|app: 0|req: 91/91] 121.178.11.82 () {34 vars in 587 bytes} [Wed Oct 21 20:11:18 2020] GET /openserver/phpmyadmin/ => generated 57453 bytes in 29 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin2/
+[pid: 124428|app: 0|req: 92/92] 121.178.11.82 () {34 vars in 567 bytes} [Wed Oct 21 20:11:18 2020] GET /phpmyadmin2/ => generated 57333 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin2/
+[pid: 124428|app: 0|req: 93/93] 121.178.11.82 () {34 vars in 567 bytes} [Wed Oct 21 20:11:19 2020] GET /phpmyadmin2/ => generated 57333 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin2/
+[pid: 124428|app: 0|req: 94/94] 121.178.11.82 () {34 vars in 566 bytes} [Wed Oct 21 20:11:20 2020] GET /phpmyadmin2/ => generated 57332 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin2/
+[pid: 124428|app: 0|req: 95/95] 121.178.11.82 () {34 vars in 567 bytes} [Wed Oct 21 20:11:21 2020] GET /phpMyAdmin2/ => generated 57333 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin2/
+[pid: 124428|app: 0|req: 96/96] 121.178.11.82 () {34 vars in 567 bytes} [Wed Oct 21 20:11:22 2020] GET /phpMyAdmin2/ => generated 57333 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin2/
+[pid: 124428|app: 0|req: 97/97] 121.178.11.82 () {34 vars in 567 bytes} [Wed Oct 21 20:11:23 2020] GET /phpMyAdmin2/ => generated 57333 bytes in 21 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2/
+[pid: 124428|app: 0|req: 98/98] 121.178.11.82 () {34 vars in 569 bytes} [Wed Oct 21 20:11:24 2020] GET /phpMyAdmin-2/ => generated 57345 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2/
+[pid: 124428|app: 0|req: 99/99] 121.178.11.82 () {34 vars in 569 bytes} [Wed Oct 21 20:11:25 2020] GET /phpMyAdmin-2/ => generated 57345 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2/
+[pid: 124428|app: 0|req: 100/100] 121.178.11.82 () {34 vars in 569 bytes} [Wed Oct 21 20:11:26 2020] GET /phpMyAdmin-2/ => generated 57345 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /php-my-admin/
+[pid: 124428|app: 0|req: 101/101] 121.178.11.82 () {34 vars in 568 bytes} [Wed Oct 21 20:11:27 2020] GET /php-my-admin/ => generated 57344 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /php-my-admin/
+[pid: 124428|app: 0|req: 102/102] 121.178.11.82 () {34 vars in 569 bytes} [Wed Oct 21 20:11:28 2020] GET /php-my-admin/ => generated 57345 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /php-my-admin/
+[pid: 124428|app: 0|req: 103/103] 121.178.11.82 () {34 vars in 569 bytes} [Wed Oct 21 20:11:29 2020] GET /php-my-admin/ => generated 57345 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.2.3/
+[pid: 124428|app: 0|req: 104/104] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:30 2020] GET /phpMyAdmin-2.2.3/ => generated 57393 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.2.3/
+[pid: 124428|app: 0|req: 105/105] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:30 2020] GET /phpMyAdmin-2.2.3/ => generated 57393 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.2.3/
+[pid: 124428|app: 0|req: 106/106] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:31 2020] GET /phpMyAdmin-2.2.3/ => generated 57393 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.2.6/
+[pid: 124428|app: 0|req: 107/107] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:32 2020] GET /phpMyAdmin-2.2.6/ => generated 57393 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.2.6/
+[pid: 124428|app: 0|req: 108/108] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:33 2020] GET /phpMyAdmin-2.2.6/ => generated 57393 bytes in 34 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.2.6/
+[pid: 124428|app: 0|req: 109/109] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:34 2020] GET /phpMyAdmin-2.2.6/ => generated 57393 bytes in 38 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.1/
+[pid: 124428|app: 0|req: 110/110] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:35 2020] GET /phpMyAdmin-2.5.1/ => generated 57393 bytes in 31 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.1/
+[pid: 124428|app: 0|req: 111/111] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:36 2020] GET /phpMyAdmin-2.5.1/ => generated 57393 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.1/
+[pid: 124428|app: 0|req: 112/112] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:37 2020] GET /phpMyAdmin-2.5.1/ => generated 57393 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.4/
+[pid: 124428|app: 0|req: 113/113] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:38 2020] GET /phpMyAdmin-2.5.4/ => generated 57393 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.4/
+[pid: 124428|app: 0|req: 114/114] 121.178.11.82 () {34 vars in 576 bytes} [Wed Oct 21 20:11:39 2020] GET /phpMyAdmin-2.5.4/ => generated 57392 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.4/
+[pid: 124428|app: 0|req: 115/115] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:39 2020] GET /phpMyAdmin-2.5.4/ => generated 57393 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5-rc1/
+[pid: 124428|app: 0|req: 116/116] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:40 2020] GET /phpMyAdmin-2.5.5-rc1/ => generated 57441 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5-rc1/
+[pid: 124428|app: 0|req: 117/117] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:41 2020] GET /phpMyAdmin-2.5.5-rc1/ => generated 57441 bytes in 40 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5-rc1/
+[pid: 124428|app: 0|req: 118/118] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:11:42 2020] GET /phpMyAdmin-2.5.5-rc1/ => generated 57440 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5-rc2/
+[pid: 124428|app: 0|req: 119/119] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:43 2020] GET /phpMyAdmin-2.5.5-rc2/ => generated 57441 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5-rc2/
+[pid: 124428|app: 0|req: 120/120] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:44 2020] GET /phpMyAdmin-2.5.5-rc2/ => generated 57441 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5-rc2/
+[pid: 124428|app: 0|req: 121/121] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:45 2020] GET /phpMyAdmin-2.5.5-rc2/ => generated 57441 bytes in 21 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5/
+[pid: 124428|app: 0|req: 122/122] 121.178.11.82 () {34 vars in 576 bytes} [Wed Oct 21 20:11:46 2020] GET /phpMyAdmin-2.5.5/ => generated 57392 bytes in 21 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5/
+[pid: 124428|app: 0|req: 123/123] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:47 2020] GET /phpMyAdmin-2.5.5/ => generated 57393 bytes in 29 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5/
+[pid: 124428|app: 0|req: 124/124] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:48 2020] GET /phpMyAdmin-2.5.5/ => generated 57393 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5-pl1/
+[pid: 124428|app: 0|req: 125/125] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:49 2020] GET /phpMyAdmin-2.5.5-pl1/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5-pl1/
+[pid: 124428|app: 0|req: 126/126] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:50 2020] GET /phpMyAdmin-2.5.5-pl1/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5-pl1/
+[pid: 124428|app: 0|req: 127/127] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:51 2020] GET /phpMyAdmin-2.5.5-pl1/ => generated 57441 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.6-rc1/
+[pid: 124428|app: 0|req: 128/128] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:51 2020] GET /phpMyAdmin-2.5.6-rc1/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.6-rc1/
+[pid: 124428|app: 0|req: 129/129] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:52 2020] GET /phpMyAdmin-2.5.6-rc1/ => generated 57441 bytes in 33 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.6-rc1/
+[pid: 124428|app: 0|req: 130/130] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:53 2020] GET /phpMyAdmin-2.5.6-rc1/ => generated 57441 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.6-rc2/
+[pid: 124428|app: 0|req: 131/131] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:54 2020] GET /phpMyAdmin-2.5.6-rc2/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.6-rc2/
+[pid: 124428|app: 0|req: 132/132] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:55 2020] GET /phpMyAdmin-2.5.6-rc2/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.6-rc2/
+[pid: 124428|app: 0|req: 133/133] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:11:56 2020] GET /phpMyAdmin-2.5.6-rc2/ => generated 57441 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.6/
+[pid: 124428|app: 0|req: 134/134] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:57 2020] GET /phpMyAdmin-2.5.6/ => generated 57393 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.6/
+[pid: 124428|app: 0|req: 135/135] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:58 2020] GET /phpMyAdmin-2.5.6/ => generated 57393 bytes in 34 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.6/
+[pid: 124428|app: 0|req: 136/136] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:11:59 2020] GET /phpMyAdmin-2.5.6/ => generated 57393 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.7/
+[pid: 124428|app: 0|req: 137/137] 121.178.11.82 () {34 vars in 576 bytes} [Wed Oct 21 20:12:00 2020] GET /phpMyAdmin-2.5.7/ => generated 57392 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.7/
+[pid: 124428|app: 0|req: 138/138] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:12:01 2020] GET /phpMyAdmin-2.5.7/ => generated 57393 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.7/
+[pid: 124428|app: 0|req: 139/139] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:12:02 2020] GET /phpMyAdmin-2.5.7/ => generated 57393 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.7-pl1/
+[pid: 124428|app: 0|req: 140/140] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:03 2020] GET /phpMyAdmin-2.5.7-pl1/ => generated 57441 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.7-pl1/
+[pid: 124428|app: 0|req: 141/141] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:03 2020] GET /phpMyAdmin-2.5.7-pl1/ => generated 57441 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.7-pl1/
+[pid: 124428|app: 0|req: 142/142] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:04 2020] GET /phpMyAdmin-2.5.7-pl1/ => generated 57441 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-alpha/
+[pid: 124428|app: 0|req: 143/143] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:12:05 2020] GET /phpMyAdmin-2.6.0-alpha/ => generated 57465 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-alpha/
+[pid: 124428|app: 0|req: 144/144] 121.178.11.82 () {34 vars in 588 bytes} [Wed Oct 21 20:12:06 2020] GET /phpMyAdmin-2.6.0-alpha/ => generated 57464 bytes in 36 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-alpha/
+[pid: 124428|app: 0|req: 145/145] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:12:07 2020] GET /phpMyAdmin-2.6.0-alpha/ => generated 57465 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-alpha2/
+[pid: 124428|app: 0|req: 146/146] 121.178.11.82 () {34 vars in 591 bytes} [Wed Oct 21 20:12:08 2020] GET /phpMyAdmin-2.6.0-alpha2/ => generated 57477 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-alpha2/
+[pid: 124428|app: 0|req: 147/147] 121.178.11.82 () {34 vars in 591 bytes} [Wed Oct 21 20:12:09 2020] GET /phpMyAdmin-2.6.0-alpha2/ => generated 57477 bytes in 28 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-alpha2/
+[pid: 124428|app: 0|req: 148/148] 121.178.11.82 () {34 vars in 590 bytes} [Wed Oct 21 20:12:10 2020] GET /phpMyAdmin-2.6.0-alpha2/ => generated 57476 bytes in 36 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-beta1/
+[pid: 124428|app: 0|req: 149/149] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:12:11 2020] GET /phpMyAdmin-2.6.0-beta1/ => generated 57465 bytes in 30 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-beta1/
+[pid: 124428|app: 0|req: 150/150] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:12:12 2020] GET /phpMyAdmin-2.6.0-beta1/ => generated 57465 bytes in 53 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-beta1/
+[pid: 124428|app: 0|req: 151/151] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:12:13 2020] GET /phpMyAdmin-2.6.0-beta1/ => generated 57465 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-beta2/
+[pid: 124428|app: 0|req: 152/152] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:12:14 2020] GET /phpMyAdmin-2.6.0-beta2/ => generated 57465 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-beta2/
+[pid: 124428|app: 0|req: 153/153] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:12:15 2020] GET /phpMyAdmin-2.6.0-beta2/ => generated 57465 bytes in 32 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-beta2/
+[pid: 124428|app: 0|req: 154/154] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:12:16 2020] GET /phpMyAdmin-2.6.0-beta2/ => generated 57465 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-rc1/
+[pid: 124428|app: 0|req: 155/155] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:16 2020] GET /phpMyAdmin-2.6.0-rc1/ => generated 57441 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-rc1/
+[pid: 124428|app: 0|req: 156/156] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:17 2020] GET /phpMyAdmin-2.6.0-rc1/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-rc1/
+[pid: 124428|app: 0|req: 157/157] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:18 2020] GET /phpMyAdmin-2.6.0-rc1/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-rc2/
+[pid: 124428|app: 0|req: 158/158] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:19 2020] GET /phpMyAdmin-2.6.0-rc2/ => generated 57441 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-rc2/
+[pid: 124428|app: 0|req: 159/159] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:12:20 2020] GET /phpMyAdmin-2.6.0-rc2/ => generated 57440 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-rc2/
+[pid: 124428|app: 0|req: 160/160] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:21 2020] GET /phpMyAdmin-2.6.0-rc2/ => generated 57441 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-rc3/
+[pid: 124428|app: 0|req: 161/161] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:22 2020] GET /phpMyAdmin-2.6.0-rc3/ => generated 57441 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-rc3/
+[pid: 124428|app: 0|req: 162/162] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:12:23 2020] GET /phpMyAdmin-2.6.0-rc3/ => generated 57440 bytes in 30 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-rc3/
+[pid: 124428|app: 0|req: 163/163] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:24 2020] GET /phpMyAdmin-2.6.0-rc3/ => generated 57441 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0/
+[pid: 124428|app: 0|req: 164/164] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:12:25 2020] GET /phpMyAdmin-2.6.0/ => generated 57393 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0/
+[pid: 124428|app: 0|req: 165/165] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:12:26 2020] GET /phpMyAdmin-2.6.0/ => generated 57393 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0/
+[pid: 124428|app: 0|req: 166/166] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:12:27 2020] GET /phpMyAdmin-2.6.0/ => generated 57393 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-pl1/
+[pid: 124428|app: 0|req: 167/167] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:28 2020] GET /phpMyAdmin-2.6.0-pl1/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-pl1/
+[pid: 124428|app: 0|req: 168/168] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:29 2020] GET /phpMyAdmin-2.6.0-pl1/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-pl1/
+[pid: 124428|app: 0|req: 169/169] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:30 2020] GET /phpMyAdmin-2.6.0-pl1/ => generated 57441 bytes in 28 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-pl2/
+[pid: 124428|app: 0|req: 170/170] 121.178.11.82 () {34 vars in 583 bytes} [Wed Oct 21 20:12:30 2020] GET /phpMyAdmin-2.6.0-pl2/ => generated 57439 bytes in 30 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-pl2/
+[pid: 124428|app: 0|req: 171/171] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:31 2020] GET /phpMyAdmin-2.6.0-pl2/ => generated 57441 bytes in 31 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-pl2/
+[pid: 124428|app: 0|req: 172/172] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:32 2020] GET /phpMyAdmin-2.6.0-pl2/ => generated 57441 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-pl3/
+[pid: 124428|app: 0|req: 173/173] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:12:33 2020] GET /phpMyAdmin-2.6.0-pl3/ => generated 57440 bytes in 32 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-pl3/
+[pid: 124428|app: 0|req: 174/174] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:12:34 2020] GET /phpMyAdmin-2.6.0-pl3/ => generated 57440 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.0-pl3/
+[pid: 124428|app: 0|req: 175/175] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:35 2020] GET /phpMyAdmin-2.6.0-pl3/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-rc1/
+[pid: 124428|app: 0|req: 176/176] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:36 2020] GET /phpMyAdmin-2.6.1-rc1/ => generated 57441 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-rc1/
+[pid: 124428|app: 0|req: 177/177] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:12:37 2020] GET /phpMyAdmin-2.6.1-rc1/ => generated 57440 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-rc1/
+[pid: 124428|app: 0|req: 178/178] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:38 2020] GET /phpMyAdmin-2.6.1-rc1/ => generated 57441 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-rc2/
+[pid: 124428|app: 0|req: 179/179] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:12:39 2020] GET /phpMyAdmin-2.6.1-rc2/ => generated 57440 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-rc2/
+[pid: 124428|app: 0|req: 180/180] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:40 2020] GET /phpMyAdmin-2.6.1-rc2/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-rc2/
+[pid: 124428|app: 0|req: 181/181] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:41 2020] GET /phpMyAdmin-2.6.1-rc2/ => generated 57441 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1/
+[pid: 124428|app: 0|req: 182/182] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:12:42 2020] GET /phpMyAdmin-2.6.1/ => generated 57393 bytes in 41 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1/
+[pid: 124428|app: 0|req: 183/183] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:12:42 2020] GET /phpMyAdmin-2.6.1/ => generated 57393 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1/
+[pid: 124428|app: 0|req: 184/184] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:12:43 2020] GET /phpMyAdmin-2.6.1/ => generated 57393 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-pl1/
+[pid: 124428|app: 0|req: 185/185] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:44 2020] GET /phpMyAdmin-2.6.1-pl1/ => generated 57441 bytes in 31 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-pl1/
+[pid: 124428|app: 0|req: 186/186] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:45 2020] GET /phpMyAdmin-2.6.1-pl1/ => generated 57441 bytes in 32 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-pl1/
+[pid: 124428|app: 0|req: 187/187] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:46 2020] GET /phpMyAdmin-2.6.1-pl1/ => generated 57441 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-pl2/
+[pid: 124428|app: 0|req: 188/188] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:47 2020] GET /phpMyAdmin-2.6.1-pl2/ => generated 57441 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-pl2/
+[pid: 124428|app: 0|req: 189/189] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:48 2020] GET /phpMyAdmin-2.6.1-pl2/ => generated 57441 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-pl2/
+[pid: 124428|app: 0|req: 190/190] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:12:49 2020] GET /phpMyAdmin-2.6.1-pl2/ => generated 57440 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-pl3/
+[pid: 124428|app: 0|req: 191/191] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:50 2020] GET /phpMyAdmin-2.6.1-pl3/ => generated 57441 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-pl3/
+[pid: 124428|app: 0|req: 192/192] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:51 2020] GET /phpMyAdmin-2.6.1-pl3/ => generated 57441 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.1-pl3/
+[pid: 124428|app: 0|req: 193/193] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:52 2020] GET /phpMyAdmin-2.6.1-pl3/ => generated 57441 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2-rc1/
+[pid: 124428|app: 0|req: 194/194] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:56 2020] GET /phpMyAdmin-2.6.2-rc1/ => generated 57441 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2-rc1/
+[pid: 124428|app: 0|req: 195/195] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:57 2020] GET /phpMyAdmin-2.6.2-rc1/ => generated 57441 bytes in 33 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2-rc1/
+[pid: 124428|app: 0|req: 196/196] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:12:58 2020] GET /phpMyAdmin-2.6.2-rc1/ => generated 57441 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2-beta1/
+[pid: 124428|app: 0|req: 197/197] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:12:58 2020] GET /phpMyAdmin-2.6.2-beta1/ => generated 57465 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2-beta1/
+[pid: 124428|app: 0|req: 198/198] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:12:59 2020] GET /phpMyAdmin-2.6.2-beta1/ => generated 57465 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2-beta1/
+[pid: 124428|app: 0|req: 199/199] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:13:00 2020] GET /phpMyAdmin-2.6.2-beta1/ => generated 57465 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2-rc1/
+[pid: 124428|app: 0|req: 200/200] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:01 2020] GET /phpMyAdmin-2.6.2-rc1/ => generated 57441 bytes in 33 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2-rc1/
+[pid: 124428|app: 0|req: 201/201] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:13:02 2020] GET /phpMyAdmin-2.6.2-rc1/ => generated 57440 bytes in 32 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2-rc1/
+[pid: 124428|app: 0|req: 202/202] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:03 2020] GET /phpMyAdmin-2.6.2-rc1/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2/
+[pid: 124428|app: 0|req: 203/203] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:04 2020] GET /phpMyAdmin-2.6.2/ => generated 57393 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2/
+[pid: 124428|app: 0|req: 204/204] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:05 2020] GET /phpMyAdmin-2.6.2/ => generated 57393 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2/
+[pid: 124428|app: 0|req: 205/205] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:06 2020] GET /phpMyAdmin-2.6.2/ => generated 57393 bytes in 37 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2-pl1/
+[pid: 124428|app: 0|req: 206/206] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:07 2020] GET /phpMyAdmin-2.6.2-pl1/ => generated 57441 bytes in 31 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2-pl1/
+[pid: 124428|app: 0|req: 207/207] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:13:08 2020] GET /phpMyAdmin-2.6.2-pl1/ => generated 57440 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.2-pl1/
+[pid: 124428|app: 0|req: 208/208] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:09 2020] GET /phpMyAdmin-2.6.2-pl1/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.3/
+[pid: 124428|app: 0|req: 209/209] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:10 2020] GET /phpMyAdmin-2.6.3/ => generated 57393 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.3/
+[pid: 124428|app: 0|req: 210/210] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:10 2020] GET /phpMyAdmin-2.6.3/ => generated 57393 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.3/
+[pid: 124428|app: 0|req: 211/211] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:11 2020] GET /phpMyAdmin-2.6.3/ => generated 57393 bytes in 37 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.3-rc1/
+[pid: 124428|app: 0|req: 212/212] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:12 2020] GET /phpMyAdmin-2.6.3-rc1/ => generated 57441 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.3-rc1/
+[pid: 124428|app: 0|req: 213/213] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:13 2020] GET /phpMyAdmin-2.6.3-rc1/ => generated 57441 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.3-rc1/
+[pid: 124428|app: 0|req: 214/214] 121.178.11.82 () {34 vars in 583 bytes} [Wed Oct 21 20:13:14 2020] GET /phpMyAdmin-2.6.3-rc1/ => generated 57439 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.3/
+[pid: 124428|app: 0|req: 215/215] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:15 2020] GET /phpMyAdmin-2.6.3/ => generated 57393 bytes in 41 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.3/
+[pid: 124428|app: 0|req: 216/216] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:16 2020] GET /phpMyAdmin-2.6.3/ => generated 57393 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.3/
+[pid: 124428|app: 0|req: 217/217] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:17 2020] GET /phpMyAdmin-2.6.3/ => generated 57393 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.3-pl1/
+[pid: 124428|app: 0|req: 218/218] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:18 2020] GET /phpMyAdmin-2.6.3-pl1/ => generated 57441 bytes in 31 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.3-pl1/
+[pid: 124428|app: 0|req: 219/219] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:19 2020] GET /phpMyAdmin-2.6.3-pl1/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.3-pl1/
+[pid: 124428|app: 0|req: 220/220] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:20 2020] GET /phpMyAdmin-2.6.3-pl1/ => generated 57441 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-rc1/
+[pid: 124428|app: 0|req: 221/221] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:21 2020] GET /phpMyAdmin-2.6.4-rc1/ => generated 57441 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-rc1/
+[pid: 124428|app: 0|req: 222/222] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:22 2020] GET /phpMyAdmin-2.6.4-rc1/ => generated 57441 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-rc1/
+[pid: 124428|app: 0|req: 223/223] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:22 2020] GET /phpMyAdmin-2.6.4-rc1/ => generated 57441 bytes in 40 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-pl1/
+[pid: 124428|app: 0|req: 224/224] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:23 2020] GET /phpMyAdmin-2.6.4-pl1/ => generated 57441 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-pl1/
+[pid: 124428|app: 0|req: 225/225] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:24 2020] GET /phpMyAdmin-2.6.4-pl1/ => generated 57441 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-pl1/
+[pid: 124428|app: 0|req: 226/226] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:13:25 2020] GET /phpMyAdmin-2.6.4-pl1/ => generated 57440 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-pl2/
+[pid: 124428|app: 0|req: 227/227] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:26 2020] GET /phpMyAdmin-2.6.4-pl2/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-pl2/
+[pid: 124428|app: 0|req: 228/228] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:27 2020] GET /phpMyAdmin-2.6.4-pl2/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-pl2/
+[pid: 124428|app: 0|req: 229/229] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:28 2020] GET /phpMyAdmin-2.6.4-pl2/ => generated 57441 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-pl3/
+[pid: 124428|app: 0|req: 230/230] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:13:29 2020] GET /phpMyAdmin-2.6.4-pl3/ => generated 57440 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-pl3/
+[pid: 124428|app: 0|req: 231/231] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:30 2020] GET /phpMyAdmin-2.6.4-pl3/ => generated 57441 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-pl3/
+[pid: 124428|app: 0|req: 232/232] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:31 2020] GET /phpMyAdmin-2.6.4-pl3/ => generated 57441 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-pl4/
+[pid: 124428|app: 0|req: 233/233] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:32 2020] GET /phpMyAdmin-2.6.4-pl4/ => generated 57441 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-pl4/
+[pid: 124428|app: 0|req: 234/234] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:33 2020] GET /phpMyAdmin-2.6.4-pl4/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4-pl4/
+[pid: 124428|app: 0|req: 235/235] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:34 2020] GET /phpMyAdmin-2.6.4-pl4/ => generated 57441 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4/
+[pid: 124428|app: 0|req: 236/236] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:34 2020] GET /phpMyAdmin-2.6.4/ => generated 57393 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4/
+[pid: 124428|app: 0|req: 237/237] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:35 2020] GET /phpMyAdmin-2.6.4/ => generated 57393 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.6.4/
+[pid: 124428|app: 0|req: 238/238] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:36 2020] GET /phpMyAdmin-2.6.4/ => generated 57393 bytes in 29 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0-beta1/
+[pid: 124428|app: 0|req: 239/239] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:13:37 2020] GET /phpMyAdmin-2.7.0-beta1/ => generated 57465 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0-beta1/
+[pid: 124428|app: 0|req: 240/240] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:13:38 2020] GET /phpMyAdmin-2.7.0-beta1/ => generated 57465 bytes in 38 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0-beta1/
+[pid: 124428|app: 0|req: 241/241] 121.178.11.82 () {34 vars in 588 bytes} [Wed Oct 21 20:13:39 2020] GET /phpMyAdmin-2.7.0-beta1/ => generated 57464 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0-rc1/
+[pid: 124428|app: 0|req: 242/242] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:40 2020] GET /phpMyAdmin-2.7.0-rc1/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0-rc1/
+[pid: 124428|app: 0|req: 243/243] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:13:41 2020] GET /phpMyAdmin-2.7.0-rc1/ => generated 57440 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0-rc1/
+[pid: 124428|app: 0|req: 244/244] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:42 2020] GET /phpMyAdmin-2.7.0-rc1/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0-pl1/
+[pid: 124428|app: 0|req: 245/245] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:42 2020] GET /phpMyAdmin-2.7.0-pl1/ => generated 57441 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0-pl1/
+[pid: 124428|app: 0|req: 246/246] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:13:43 2020] GET /phpMyAdmin-2.7.0-pl1/ => generated 57440 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0-pl1/
+[pid: 124428|app: 0|req: 247/247] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:44 2020] GET /phpMyAdmin-2.7.0-pl1/ => generated 57441 bytes in 53 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0-pl2/
+[pid: 124428|app: 0|req: 248/248] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:45 2020] GET /phpMyAdmin-2.7.0-pl2/ => generated 57441 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0-pl2/
+[pid: 124428|app: 0|req: 249/249] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:46 2020] GET /phpMyAdmin-2.7.0-pl2/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0-pl2/
+[pid: 124428|app: 0|req: 250/250] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:47 2020] GET /phpMyAdmin-2.7.0-pl2/ => generated 57441 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0/
+[pid: 124428|app: 0|req: 251/251] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:48 2020] GET /phpMyAdmin-2.7.0/ => generated 57393 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0/
+[pid: 124428|app: 0|req: 252/252] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:49 2020] GET /phpMyAdmin-2.7.0/ => generated 57393 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.7.0/
+[pid: 124428|app: 0|req: 253/253] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:50 2020] GET /phpMyAdmin-2.7.0/ => generated 57393 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0-beta1/
+[pid: 124428|app: 0|req: 254/254] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:13:50 2020] GET /phpMyAdmin-2.8.0-beta1/ => generated 57465 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0-beta1/
+[pid: 124428|app: 0|req: 255/255] 121.178.11.82 () {34 vars in 589 bytes} [Wed Oct 21 20:13:51 2020] GET /phpMyAdmin-2.8.0-beta1/ => generated 57465 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0-beta1/
+[pid: 124428|app: 0|req: 256/256] 121.178.11.82 () {34 vars in 588 bytes} [Wed Oct 21 20:13:52 2020] GET /phpMyAdmin-2.8.0-beta1/ => generated 57464 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0-rc1/
+[pid: 124428|app: 0|req: 257/257] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:53 2020] GET /phpMyAdmin-2.8.0-rc1/ => generated 57441 bytes in 29 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0-rc1/
+[pid: 124428|app: 0|req: 258/258] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:54 2020] GET /phpMyAdmin-2.8.0-rc1/ => generated 57441 bytes in 30 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0-rc1/
+[pid: 124428|app: 0|req: 259/259] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:55 2020] GET /phpMyAdmin-2.8.0-rc1/ => generated 57441 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0-rc2/
+[pid: 124428|app: 0|req: 260/260] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:56 2020] GET /phpMyAdmin-2.8.0-rc2/ => generated 57441 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0-rc2/
+[pid: 124428|app: 0|req: 261/261] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:57 2020] GET /phpMyAdmin-2.8.0-rc2/ => generated 57441 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0-rc2/
+[pid: 124428|app: 0|req: 262/262] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:13:57 2020] GET /phpMyAdmin-2.8.0-rc2/ => generated 57441 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0/
+[pid: 124428|app: 0|req: 263/263] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:58 2020] GET /phpMyAdmin-2.8.0/ => generated 57393 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0/
+[pid: 124428|app: 0|req: 264/264] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:13:59 2020] GET /phpMyAdmin-2.8.0/ => generated 57393 bytes in 36 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0/
+[pid: 124428|app: 0|req: 265/265] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:14:00 2020] GET /phpMyAdmin-2.8.0/ => generated 57393 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0.1/
+[pid: 124428|app: 0|req: 266/266] 121.178.11.82 () {34 vars in 581 bytes} [Wed Oct 21 20:14:01 2020] GET /phpMyAdmin-2.8.0.1/ => generated 57417 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0.1/
+[pid: 124428|app: 0|req: 267/267] 121.178.11.82 () {34 vars in 581 bytes} [Wed Oct 21 20:14:02 2020] GET /phpMyAdmin-2.8.0.1/ => generated 57417 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0.1/
+[pid: 124428|app: 0|req: 268/268] 121.178.11.82 () {34 vars in 581 bytes} [Wed Oct 21 20:14:03 2020] GET /phpMyAdmin-2.8.0.1/ => generated 57417 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0.2/
+[pid: 124428|app: 0|req: 269/269] 121.178.11.82 () {34 vars in 581 bytes} [Wed Oct 21 20:14:04 2020] GET /phpMyAdmin-2.8.0.2/ => generated 57417 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0.2/
+[pid: 124428|app: 0|req: 270/270] 121.178.11.82 () {34 vars in 580 bytes} [Wed Oct 21 20:14:05 2020] GET /phpMyAdmin-2.8.0.2/ => generated 57416 bytes in 33 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0.2/
+[pid: 124428|app: 0|req: 271/271] 121.178.11.82 () {34 vars in 581 bytes} [Wed Oct 21 20:14:06 2020] GET /phpMyAdmin-2.8.0.2/ => generated 57417 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0.3/
+[pid: 124428|app: 0|req: 272/272] 121.178.11.82 () {34 vars in 581 bytes} [Wed Oct 21 20:14:07 2020] GET /phpMyAdmin-2.8.0.3/ => generated 57417 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0.3/
+[pid: 124428|app: 0|req: 273/273] 121.178.11.82 () {34 vars in 581 bytes} [Wed Oct 21 20:14:08 2020] GET /phpMyAdmin-2.8.0.3/ => generated 57417 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0.3/
+[pid: 124428|app: 0|req: 274/274] 121.178.11.82 () {34 vars in 581 bytes} [Wed Oct 21 20:14:08 2020] GET /phpMyAdmin-2.8.0.3/ => generated 57417 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0.4/
+[pid: 124428|app: 0|req: 275/275] 121.178.11.82 () {34 vars in 581 bytes} [Wed Oct 21 20:14:09 2020] GET /phpMyAdmin-2.8.0.4/ => generated 57417 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0.4/
+[pid: 124428|app: 0|req: 276/276] 121.178.11.82 () {34 vars in 580 bytes} [Wed Oct 21 20:14:10 2020] GET /phpMyAdmin-2.8.0.4/ => generated 57416 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0.4/
+[pid: 124428|app: 0|req: 277/277] 121.178.11.82 () {34 vars in 581 bytes} [Wed Oct 21 20:14:11 2020] GET /phpMyAdmin-2.8.0.4/ => generated 57417 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.1-rc1/
+[pid: 124428|app: 0|req: 278/278] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:14:12 2020] GET /phpMyAdmin-2.8.1-rc1/ => generated 57441 bytes in 37 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.1-rc1/
+[pid: 124428|app: 0|req: 279/279] 121.178.11.82 () {34 vars in 585 bytes} [Wed Oct 21 20:14:13 2020] GET /phpMyAdmin-2.8.1-rc1/ => generated 57441 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.1-rc1/
+[pid: 124428|app: 0|req: 280/280] 121.178.11.82 () {34 vars in 584 bytes} [Wed Oct 21 20:14:14 2020] GET /phpMyAdmin-2.8.1-rc1/ => generated 57440 bytes in 42 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.1/
+[pid: 124428|app: 0|req: 281/281] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:14:15 2020] GET /phpMyAdmin-2.8.1/ => generated 57393 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.1/
+[pid: 124428|app: 0|req: 282/282] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:14:16 2020] GET /phpMyAdmin-2.8.1/ => generated 57393 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.1/
+[pid: 124428|app: 0|req: 283/283] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:14:17 2020] GET /phpMyAdmin-2.8.1/ => generated 57393 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.2/
+[pid: 124428|app: 0|req: 284/284] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:14:17 2020] GET /phpMyAdmin-2.8.2/ => generated 57393 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.2/
+[pid: 124428|app: 0|req: 285/285] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:14:18 2020] GET /phpMyAdmin-2.8.2/ => generated 57393 bytes in 20 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.2/
+[pid: 124428|app: 0|req: 286/286] 121.178.11.82 () {34 vars in 577 bytes} [Wed Oct 21 20:14:19 2020] GET /phpMyAdmin-2.8.2/ => generated 57393 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /sqlmanager/
+[pid: 124428|app: 0|req: 287/287] 121.178.11.82 () {34 vars in 564 bytes} [Wed Oct 21 20:14:20 2020] GET /sqlmanager/ => generated 57320 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /sqlmanager/
+[pid: 124428|app: 0|req: 288/288] 121.178.11.82 () {34 vars in 565 bytes} [Wed Oct 21 20:14:21 2020] GET /sqlmanager/ => generated 57321 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /sqlmanager/
+[pid: 124428|app: 0|req: 289/289] 121.178.11.82 () {34 vars in 565 bytes} [Wed Oct 21 20:14:22 2020] GET /sqlmanager/ => generated 57321 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /mysqlmanager/
+[pid: 124428|app: 0|req: 290/290] 121.178.11.82 () {34 vars in 569 bytes} [Wed Oct 21 20:14:23 2020] GET /mysqlmanager/ => generated 57345 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /mysqlmanager/
+[pid: 124428|app: 0|req: 291/291] 121.178.11.82 () {34 vars in 568 bytes} [Wed Oct 21 20:14:24 2020] GET /mysqlmanager/ => generated 57344 bytes in 33 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /mysqlmanager/
+[pid: 124428|app: 0|req: 292/292] 121.178.11.82 () {34 vars in 569 bytes} [Wed Oct 21 20:14:25 2020] GET /mysqlmanager/ => generated 57345 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /p/m/a/
+[pid: 124428|app: 0|req: 293/293] 121.178.11.82 () {34 vars in 555 bytes} [Wed Oct 21 20:14:26 2020] GET /p/m/a/ => generated 57261 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /p/m/a/
+[pid: 124428|app: 0|req: 294/294] 121.178.11.82 () {34 vars in 555 bytes} [Wed Oct 21 20:14:27 2020] GET /p/m/a/ => generated 57261 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /p/m/a/
+[pid: 124428|app: 0|req: 295/295] 121.178.11.82 () {34 vars in 555 bytes} [Wed Oct 21 20:14:28 2020] GET /p/m/a/ => generated 57261 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /PMA2005/
+[pid: 124428|app: 0|req: 296/296] 121.178.11.82 () {34 vars in 559 bytes} [Wed Oct 21 20:14:29 2020] GET /PMA2005/ => generated 57285 bytes in 28 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /PMA2005/
+[pid: 124428|app: 0|req: 297/297] 121.178.11.82 () {34 vars in 559 bytes} [Wed Oct 21 20:14:29 2020] GET /PMA2005/ => generated 57285 bytes in 33 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /PMA2005/
+[pid: 124428|app: 0|req: 298/298] 121.178.11.82 () {34 vars in 559 bytes} [Wed Oct 21 20:14:30 2020] GET /PMA2005/ => generated 57285 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /pma2005/
+[pid: 124428|app: 0|req: 299/299] 121.178.11.82 () {34 vars in 558 bytes} [Wed Oct 21 20:14:31 2020] GET /pma2005/ => generated 57284 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /pma2005/
+[pid: 124428|app: 0|req: 300/300] 121.178.11.82 () {34 vars in 559 bytes} [Wed Oct 21 20:14:32 2020] GET /pma2005/ => generated 57285 bytes in 32 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /pma2005/
+[pid: 124428|app: 0|req: 301/301] 121.178.11.82 () {34 vars in 559 bytes} [Wed Oct 21 20:14:33 2020] GET /pma2005/ => generated 57285 bytes in 37 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpmanager/
+[pid: 124428|app: 0|req: 302/302] 121.178.11.82 () {34 vars in 565 bytes} [Wed Oct 21 20:14:34 2020] GET /phpmanager/ => generated 57321 bytes in 26 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpmanager/
+[pid: 124428|app: 0|req: 303/303] 121.178.11.82 () {34 vars in 565 bytes} [Wed Oct 21 20:14:35 2020] GET /phpmanager/ => generated 57321 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpmanager/
+[pid: 124428|app: 0|req: 304/304] 121.178.11.82 () {34 vars in 565 bytes} [Wed Oct 21 20:14:36 2020] GET /phpmanager/ => generated 57321 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /php-myadmin/
+[pid: 124428|app: 0|req: 305/305] 121.178.11.82 () {34 vars in 567 bytes} [Wed Oct 21 20:14:37 2020] GET /php-myadmin/ => generated 57333 bytes in 21 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /php-myadmin/
+[pid: 124428|app: 0|req: 306/306] 121.178.11.82 () {34 vars in 567 bytes} [Wed Oct 21 20:14:38 2020] GET /php-myadmin/ => generated 57333 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /php-myadmin/
+[pid: 124428|app: 0|req: 307/307] 121.178.11.82 () {34 vars in 567 bytes} [Wed Oct 21 20:14:39 2020] GET /php-myadmin/ => generated 57333 bytes in 36 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpmy-admin/
+[pid: 124428|app: 0|req: 308/308] 121.178.11.82 () {34 vars in 567 bytes} [Wed Oct 21 20:14:40 2020] GET /phpmy-admin/ => generated 57333 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpmy-admin/
+[pid: 124428|app: 0|req: 309/309] 121.178.11.82 () {34 vars in 567 bytes} [Wed Oct 21 20:14:41 2020] GET /phpmy-admin/ => generated 57333 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /phpmy-admin/
+[pid: 124428|app: 0|req: 310/310] 121.178.11.82 () {34 vars in 567 bytes} [Wed Oct 21 20:14:42 2020] GET /phpmy-admin/ => generated 57333 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /webadmin/
+[pid: 124428|app: 0|req: 311/311] 121.178.11.82 () {34 vars in 561 bytes} [Wed Oct 21 20:14:42 2020] GET /webadmin/ => generated 57297 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /webadmin/
+[pid: 124428|app: 0|req: 312/312] 121.178.11.82 () {34 vars in 560 bytes} [Wed Oct 21 20:14:43 2020] GET /webadmin/ => generated 57296 bytes in 45 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 313/313] 127.0.0.1 () {66 vars in 1275 bytes} [Thu Oct 22 16:38:13 2020] GET / => generated 2054 bytes in 7 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 124428|app: 0|req: 314/314] 127.0.0.1 () {78 vars in 1554 bytes} [Thu Oct 22 16:38:42 2020] POST /upload/ => generated 16 bytes in 5 msecs (HTTP/1.0 200) 5 headers in 165 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 315/315] 127.0.0.1 () {66 vars in 1278 bytes} [Thu Oct 22 16:47:19 2020] GET / => generated 2054 bytes in 6 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 124428|app: 0|req: 316/316] 127.0.0.1 () {62 vars in 1112 bytes} [Thu Oct 22 16:48:19 2020] GET / => generated 2054 bytes in 2 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 1)
+Not Found: /favicon.ico
+[pid: 124428|app: 0|req: 317/317] 127.0.0.1 () {64 vars in 1126 bytes} [Thu Oct 22 16:48:20 2020] GET /favicon.ico => generated 2190 bytes in 8 msecs (HTTP/1.0 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 124428|app: 0|req: 318/318] 127.0.0.1 () {52 vars in 744 bytes} [Thu Oct 22 16:49:04 2020] GET / => generated 2054 bytes in 1 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 1)
+Not Found: /favicon.ico
+[pid: 124428|app: 0|req: 319/319] 127.0.0.1 () {52 vars in 755 bytes} [Thu Oct 22 16:49:04 2020] GET /favicon.ico => generated 2190 bytes in 4 msecs (HTTP/1.0 404) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 320/320] 127.0.0.1 () {66 vars in 1272 bytes} [Thu Oct 22 17:46:32 2020] GET / => generated 2054 bytes in 7 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 124428|app: 0|req: 321/321] 127.0.0.1 () {78 vars in 1551 bytes} [Thu Oct 22 17:46:40 2020] POST /upload/ => generated 16 bytes in 5 msecs (HTTP/1.0 200) 5 headers in 165 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 322/322] 127.0.0.1 () {64 vars in 1247 bytes} [Thu Oct 22 17:49:05 2020] GET / => generated 2054 bytes in 6 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 124428|app: 0|req: 323/323] 127.0.0.1 () {64 vars in 1194 bytes} [Thu Oct 22 17:49:06 2020] GET /favicon.ico => generated 2190 bytes in 8 msecs (HTTP/1.0 404) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 324/324] 127.0.0.1 () {66 vars in 1275 bytes} [Thu Oct 22 18:03:47 2020] GET / => generated 2054 bytes in 6 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 124428|app: 0|req: 325/325] 127.0.0.1 () {78 vars in 1554 bytes} [Thu Oct 22 18:03:51 2020] POST /upload/ => generated 16 bytes in 7 msecs (HTTP/1.0 200) 5 headers in 165 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 326/326] 127.0.0.1 () {66 vars in 1278 bytes} [Thu Oct 22 18:17:25 2020] GET / => generated 2054 bytes in 6 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 124428|app: 0|req: 327/327] 127.0.0.1 () {78 vars in 1557 bytes} [Thu Oct 22 18:17:32 2020] POST /upload/ => generated 16 bytes in 5 msecs (HTTP/1.0 200) 5 headers in 165 bytes (1 switches on core 1)
+[pid: 124428|app: 0|req: 328/328] 127.0.0.1 () {78 vars in 1557 bytes} [Thu Oct 22 18:23:54 2020] POST /upload/ => generated 16 bytes in 8 msecs (HTTP/1.0 200) 5 headers in 165 bytes (1 switches on core 0)
+[pid: 124428|app: 0|req: 329/329] 127.0.0.1 () {78 vars in 1557 bytes} [Thu Oct 22 18:33:24 2020] POST /upload/ => generated 16 bytes in 9 msecs (HTTP/1.0 200) 5 headers in 165 bytes (1 switches on core 1)
+Thu Oct 22 18:37:53 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Oct 22 18:37:53 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Thu Oct 22 18:37:54 2020] ***
+compiled with version: 8.3.1 20191121 (Red Hat 8.3.1-5) on 20 October 2020 23:56:21
+os: Linux-4.18.0-193.19.1.el8_2.x86_64 #1 SMP Mon Sep 14 14:37:00 UTC 2020
+nodename: Ziyu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /www/djangoProject/501project_venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/djangoProject
+your processes number limit is 14993
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 7
+uwsgi socket 0 bound to TCP address 127.0.0.1:43195 (port auto-assigned) fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.8 (default, Jul  4 2020, 10:48:43)  [GCC 8.3.1 20190507 (Red Hat 8.3.1-4)]
+*** Starting uWSGI 2.0.19.1 (64bit) on [Thu Oct 22 18:37:54 2020] ***
+compiled with version: 8.3.1 20191121 (Red Hat 8.3.1-5) on 20 October 2020 23:56:21
+os: Linux-4.18.0-193.19.1.el8_2.x86_64 #1 SMP Mon Sep 14 14:37:00 UTC 2020
+nodename: Ziyu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /www/djangoProject/501project_venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/djangoProject
+your processes number limit is 14993
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8000).
+bind(): Address already in use [core/socket.c line 769]
+Python main interpreter initialized at 0x18a5b10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x18a5b10 pid: 313423 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 313423)
+spawned uWSGI worker 1 (pid: 313426, cores: 2)
+spawned uWSGI http 1 (pid: 313428)
+[pid: 313426|app: 0|req: 1/1] 127.0.0.1 () {66 vars in 1278 bytes} [Thu Oct 22 18:38:00 2020] GET / => generated 2054 bytes in 23 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 313426|app: 0|req: 2/2] 127.0.0.1 () {78 vars in 1557 bytes} [Thu Oct 22 18:38:06 2020] POST /upload/ => generated 109 bytes in 5 msecs (HTTP/1.0 200) 5 headers in 166 bytes (1 switches on core 1)
+Thu Oct 22 18:39:23 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Oct 22 18:39:23 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Thu Oct 22 18:39:24 2020] ***
+compiled with version: 8.3.1 20191121 (Red Hat 8.3.1-5) on 20 October 2020 23:56:21
+os: Linux-4.18.0-193.19.1.el8_2.x86_64 #1 SMP Mon Sep 14 14:37:00 UTC 2020
+nodename: Ziyu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /www/djangoProject/501project_venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/djangoProject
+your processes number limit is 14993
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 7
+uwsgi socket 0 bound to TCP address 127.0.0.1:42301 (port auto-assigned) fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.8 (default, Jul  4 2020, 10:48:43)  [GCC 8.3.1 20190507 (Red Hat 8.3.1-4)]
+*** Starting uWSGI 2.0.19.1 (64bit) on [Thu Oct 22 18:39:24 2020] ***
+compiled with version: 8.3.1 20191121 (Red Hat 8.3.1-5) on 20 October 2020 23:56:21
+os: Linux-4.18.0-193.19.1.el8_2.x86_64 #1 SMP Mon Sep 14 14:37:00 UTC 2020
+nodename: Ziyu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /
+detected binary path: /www/djangoProject/501project_venv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /www/djangoProject
+your processes number limit is 14993
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8000).
+bind(): Address already in use [core/socket.c line 769]
+Python main interpreter initialized at 0x1aa2b10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1aa2b10 pid: 313664 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 313664)
+spawned uWSGI worker 1 (pid: 313667, cores: 2)
+spawned uWSGI http 1 (pid: 313669)
+[pid: 313667|app: 0|req: 1/1] 127.0.0.1 () {78 vars in 1557 bytes} [Thu Oct 22 18:40:15 2020] POST /upload/ => generated 113 bytes in 20 msecs (HTTP/1.0 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 313667|app: 0|req: 2/2] 127.0.0.1 () {78 vars in 1557 bytes} [Thu Oct 22 18:46:12 2020] POST /upload/ => generated 113 bytes in 10 msecs (HTTP/1.0 200) 5 headers in 166 bytes (1 switches on core 1)
+[pid: 313667|app: 0|req: 3/3] 127.0.0.1 () {64 vars in 1175 bytes} [Thu Oct 22 18:47:03 2020] GET / => generated 2054 bytes in 17 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 313667|app: 0|req: 4/4] 127.0.0.1 () {64 vars in 1161 bytes} [Thu Oct 22 18:47:05 2020] GET /favicon.ico => generated 2190 bytes in 12 msecs (HTTP/1.0 404) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 313667|app: 0|req: 5/5] 127.0.0.1 () {78 vars in 1521 bytes} [Thu Oct 22 18:47:48 2020] POST /upload/ => generated 113 bytes in 3 msecs (HTTP/1.0 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 313667|app: 0|req: 6/6] 127.0.0.1 () {64 vars in 1178 bytes} [Thu Oct 22 18:57:18 2020] GET / => generated 2054 bytes in 6 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 1)
+[pid: 313667|app: 0|req: 7/7] 127.0.0.1 () {78 vars in 1524 bytes} [Thu Oct 22 18:57:30 2020] POST /upload/ => generated 113 bytes in 5 msecs (HTTP/1.0 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 313667|app: 0|req: 8/8] 127.0.0.1 () {64 vars in 1173 bytes} [Thu Oct 22 21:08:45 2020] GET / => generated 2054 bytes in 7 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 9/9] 83.97.20.25 () {26 vars in 268 bytes} [Thu Oct 22 21:39:23 2020] GET / => generated 56415 bytes in 97 msecs (HTTP/1.0 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 10/10] 83.97.20.25 () {26 vars in 268 bytes} [Thu Oct 22 21:39:23 2020] GET / => generated 56415 bytes in 21 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 313667|app: 0|req: 11/11] 127.0.0.1 () {64 vars in 1174 bytes} [Thu Oct 22 22:09:52 2020] GET / => generated 2054 bytes in 5 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 313667|app: 0|req: 12/12] 127.0.0.1 () {78 vars in 1520 bytes} [Thu Oct 22 22:10:19 2020] POST /upload/ => generated 113 bytes in 4 msecs (HTTP/1.0 200) 5 headers in 166 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'Ziyu:8000'. You may need to add 'ziyu' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[pid: 313667|app: 0|req: 13/13] 45.148.121.85 () {22 vars in 236 bytes} [Fri Oct 23 01:20:17 2020] HEAD /robots.txt => generated 56151 bytes in 37 msecs (HTTP/1.0 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 14/14] 172.104.92.166 () {28 vars in 339 bytes} [Fri Oct 23 04:02:59 2020] GET / => generated 56649 bytes in 32 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 15/15] 139.162.79.87 () {30 vars in 328 bytes} [Fri Oct 23 04:57:41 2020] GET / => generated 56706 bytes in 41 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /api/islogged
+[pid: 313667|app: 0|req: 16/16] 89.248.168.215 () {32 vars in 499 bytes} [Fri Oct 23 06:27:52 2020] GET /api/islogged => generated 57253 bytes in 32 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+[uwsgi-http key:  client_addr: 5.8.18.88 client_port: 19960] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 17/17] 193.118.53.194 () {30 vars in 428 bytes} [Fri Oct 23 09:48:07 2020] GET / => generated 56943 bytes in 37 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /api/islogged
+[pid: 313667|app: 0|req: 18/18] 89.248.168.215 () {32 vars in 499 bytes} [Fri Oct 23 13:33:36 2020] GET /api/islogged => generated 57253 bytes in 38 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+[uwsgi-http key:  client_addr: 94.102.50.155 client_port: 24810] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+[pid: 313667|app: 0|req: 19/19] 127.0.0.1 () {50 vars in 701 bytes} [Sat Oct 24 13:49:40 2020] GET / => generated 2054 bytes in 8 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 313667|app: 0|req: 20/20] 127.0.0.1 () {50 vars in 698 bytes} [Sat Oct 24 13:49:40 2020] GET / => generated 2054 bytes in 1 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 21/21] 196.52.43.101 () {26 vars in 368 bytes} [Sat Oct 24 19:28:50 2020] GET / => generated 56658 bytes in 36 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 22/22] 162.142.125.52 () {24 vars in 246 bytes} [Sat Oct 24 19:40:45 2020] GET / => generated 56287 bytes in 30 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 23/23] 162.142.125.52 () {30 vars in 382 bytes} [Sat Oct 24 19:40:45 2020] GET / => generated 56819 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'Ziyu:8000'. You may need to add 'ziyu' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 24/24] 157.245.242.214 () {22 vars in 217 bytes} [Sun Oct 25 13:13:03 2020] GET / => generated 56026 bytes in 56 msecs (HTTP/1.0 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'Ziyu:8000'. You may need to add 'ziyu' to ALLOWED_HOSTS.
+Bad Request: /nice ports,/Trinity.txt.bak
+[pid: 313667|app: 0|req: 25/25] 157.245.242.214 () {22 vars in 279 bytes} [Sun Oct 25 13:13:04 2020] GET /nice%20ports%2C/Tri%6Eity.txt%2ebak => generated 56370 bytes in 22 msecs (HTTP/1.0 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'Ziyu:8000'. You may need to add 'ziyu' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 26/26] 157.245.242.214 () {22 vars in 221 bytes} [Sun Oct 25 13:13:10 2020] OPTIONS / => generated 56054 bytes in 24 msecs (HTTP/1.0 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'Ziyu:8000'. You may need to add 'ziyu' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 27/27] 157.245.242.214 () {22 vars in 221 bytes} [Sun Oct 25 13:13:11 2020] OPTIONS / => generated 56054 bytes in 22 msecs (RTSP/1.0 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'Ziyu:8000'. You may need to add 'ziyu' to ALLOWED_HOSTS.
+Bad Request: /sip:nm
+[pid: 313667|app: 0|req: 28/28] 157.245.242.214 () {40 vars in 467 bytes} [Sun Oct 25 13:13:11 2020] OPTIONS sip:nm => generated 11927 bytes in 10 msecs (SIP/2.0 400) 3 headers in 131 bytes (1 switches on core 1)
+[uwsgi-http key:  client_addr: 185.202.1.123 client_port: 35576] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 29/29] 139.162.79.87 () {30 vars in 328 bytes} [Mon Oct 26 06:25:45 2020] GET / => generated 56706 bytes in 54 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 30/30] 172.104.92.166 () {28 vars in 339 bytes} [Mon Oct 26 12:14:15 2020] GET / => generated 56649 bytes in 40 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: 'Ziyu:8000'. You may need to add 'ziyu' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 31/31] 125.64.94.136 () {22 vars in 215 bytes} [Tue Oct 27 06:21:04 2020] GET / => generated 56024 bytes in 33 msecs (HTTP/1.0 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 32/32] 139.162.79.87 () {30 vars in 326 bytes} [Tue Oct 27 06:59:44 2020] GET / => generated 56704 bytes in 30 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 33/33] 196.52.43.99 () {26 vars in 367 bytes} [Tue Oct 27 13:27:15 2020] GET / => generated 56657 bytes in 33 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 34/34] 128.14.134.170 () {30 vars in 428 bytes} [Tue Oct 27 13:35:47 2020] GET / => generated 56943 bytes in 52 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 313667|app: 0|req: 35/35] 127.0.0.1 () {50 vars in 743 bytes} [Tue Oct 27 19:02:44 2020] GET / => generated 2054 bytes in 8 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 313667|app: 0|req: 36/36] 127.0.0.1 () {50 vars in 747 bytes} [Tue Oct 27 19:02:44 2020] GET / => generated 2054 bytes in 1 msecs (HTTP/1.0 200) 5 headers in 167 bytes (1 switches on core 1)
+[uwsgi-http key:  client_addr: 194.26.29.15 client_port: 11846] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+[uwsgi-http key:  client_addr: 194.26.29.15 client_port: 15584] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 37/37] 128.14.209.242 () {30 vars in 428 bytes} [Wed Oct 28 02:09:35 2020] GET / => generated 56943 bytes in 35 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 38/38] 185.180.231.182 () {26 vars in 277 bytes} [Wed Oct 28 07:59:54 2020] GET / => generated 56424 bytes in 36 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 39/39] 172.104.92.166 () {28 vars in 338 bytes} [Wed Oct 28 08:14:13 2020] GET / => generated 56648 bytes in 32 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[uwsgi-http key:  client_addr: 185.193.91.126 client_port: 23803] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 40/40] 167.248.133.51 () {24 vars in 247 bytes} [Thu Oct 29 04:52:37 2020] GET / => generated 56288 bytes in 31 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 41/41] 167.248.133.51 () {30 vars in 382 bytes} [Thu Oct 29 04:52:37 2020] GET / => generated 56819 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[uwsgi-http key:  client_addr: 104.152.52.29 client_port: 19680] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+[uwsgi-http key:  client_addr: 87.251.75.254 client_port: 25756] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 42/42] 150.129.177.7 () {36 vars in 571 bytes} [Thu Oct 29 11:15:48 2020] GET / => generated 57334 bytes in 38 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /.git/HEAD
+[pid: 313667|app: 0|req: 43/43] 150.129.177.7 () {34 vars in 482 bytes} [Thu Oct 29 11:15:55 2020] GET /.git/HEAD => generated 57229 bytes in 23 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 313667|app: 0|req: 44/44] 150.129.177.7 () {36 vars in 540 bytes} [Thu Oct 29 11:15:55 2020] GET /favicon.ico => generated 57413 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 45/45] 83.97.20.25 () {26 vars in 268 bytes} [Thu Oct 29 13:03:47 2020] GET / => generated 56415 bytes in 40 msecs (HTTP/1.0 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 46/46] 83.97.20.25 () {26 vars in 268 bytes} [Thu Oct 29 13:03:47 2020] GET / => generated 56415 bytes in 25 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 47/47] 128.14.134.134 () {30 vars in 428 bytes} [Thu Oct 29 20:45:21 2020] GET / => generated 56943 bytes in 39 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '107.191.39.52:8000'. You may need to add '107.191.39.52' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 313667|app: 0|req: 48/48] 92.118.161.1 () {26 vars in 386 bytes} [Thu Oct 29 20:53:41 2020] GET / => generated 56695 bytes in 96 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 1)
